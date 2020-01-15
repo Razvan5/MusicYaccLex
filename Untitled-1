@@ -1,0 +1,81 @@
+                //se verifca in lista de parametrii daca sunt duplicate
+                string duplicate[100];
+                int i=0;
+                        for(unordered_multimap<string,tuple<string,multimap<string,string>,string,string,int>>::iterator iterator_symbol_table=symbol_table.begin();iterator_symbol_table!=symbol_table.end();iterator_symbol_table++){                                
+                                        if(iterator_symbol_table->first==numeFunctieCuSignatura){
+                                                
+                                                duplicate[i]=get<0>(iterator_symbol_table->second);
+                                                i++;
+                                        } 
+                        }
+                for(int j=0;j<=i;j++){
+                        for(int k=j+1;k<=i;k++){
+                               
+                                if(duplicate[j]==duplicate[k]){
+                                         
+                                        printf("Parametrii cu acelasi identificator la linia %d\n",yylineno);
+                                        return -3; 
+                                }
+                        }
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                int nr=0;
+                for (iterator_symbol_table = symbol_table.begin(); iterator_symbol_table != symbol_table.end(); iterator_symbol_table++) {
+                        
+                        if(iterator_symbol_table->first==numeFunctieCuSignatura){
+                                nr++;
+                                cout<<iterator_symbol_table->first<<' '<<numeFunctieCuSignatura<<endl;
+                                if(nr>=1){
+                                        cout<<nr;
+                                        printf("Doua functii nu pot avea aceasi signatura si acelasi nume! la linia %d\n",yylineno);
+                                        return -2;
+                                }
+                        }
+                
+                }
+
+                //se verifca in lista de parametrii daca sunt duplicate
+                string duplicate[100];
+                int i=0;
+                        for(unordered_multimap<string,tuple<string,multimap<string,string>,string,string,int>>::iterator iterator_symbol_table=symbol_table.begin();iterator_symbol_table!=symbol_table.end();iterator_symbol_table++){                                
+                                        if(iterator_symbol_table->first==numeFunctieCuSignatura){
+                                                
+                                                duplicate[i]=get<0>(iterator_symbol_table->second);
+                                                i++;
+                                        } 
+                        }
+
+                for(int j=1;j<=i;j++){
+                        
+                        for(int k=j+1;k<=i;k++){
+                               
+                                if(duplicate[j]==duplicate[k]){
+                                         
+                                        printf("Parametrii cu acelasi identificator la linia %d\n",yylineno);
+                                        return -3; 
+                                }
+                        }
+                }

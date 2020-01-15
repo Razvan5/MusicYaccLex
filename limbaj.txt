@@ -1,0 +1,141 @@
+Let the music begin:
+
+#include {libra}
+@Compunem pian 5
+@Compunem lira 10
+@Compunem toba 20
+@Compunem lira1 10
+
+^nota_intreaga unique<->10
+^nota_muzicala unique_char <->'e'
+^nota_muzicala ceva_lit<->'a'
+^nota_intreaga var_if <-> 42,var_handi<->10,var_main<->10
+^nota_muzicala cc<->ceva_lit
+^nota_intreaga corect,corect1,x,corect3,ceva_sigur_unic<->12
+^nota_intreaga zet<->ceva_sigur_unic
+^nota_Re real
+^nota_Re rat<->10.01
+
+nota_intreaga Difuzor RCF{nota_muzicala var_char1<->'d',nota_muzicala var_char2<->'h',nota_muzicala var_char3<->'e',nota_intreaga y<->(1000/2)}
+CheiaSol||
+
+    nota_intreaga unu<->doi
+
+    nota_intreaga z<->ceva_sigur_unic
+    nota_muzicala repeat<->ceva_lit
+    nota_intreaga ultralolololololo <->(1+1),ha<->3
+    nota_intreaga altceva<->10,creier<->altceva,inca_o_incercare<->(creier*2)
+    nota_Re rezultat <-> ((2.9~4.9)*(10.4 + 23.4))
+
+    partitura xo
+
+    repetitie{(5<<4)}
+    CheiaSol||
+        nota_intreaga IN_WHILE
+    ||
+
+
+    partitura mozart<-> (("fur"+"_elise")+("_scrisa_"+"de_mozzart")),altul<->("hah"+"mam")
+
+
+    gama test_bool <->  (50 << 19),testBool2<-> ((-2 << 19) SI (-2 >> -5))
+    
+
+    Reverb k
+||
+
+nota_Re Difuzor Dynacord{nota_intreaga var_param_fucntie1<->(99+10),nota_Re var_float<->2.9 ,nota_intreaga wat<->69,partitura var_string,nota_muzicala var_char <-> 'a',nota_muzicala ceva_int_fct}
+CheiaSol||
+    gama combo_bool<-> (test_bool SOL testBool2)
+    Reverb w
+||
+
+nota_intreaga Difuzor JBL{nota_Re var_float,partitura var_string<->"ceva_scris_aici",nota_muzicala var_char <-> 'b',nota_intreaga ceva_int_fct,nota_intreaga var_int_nou}
+CheiaSol||
+
+    Reverb var_fct
+||
+
+
+
+
+Bass Lotrck
+CheiaSol||
+    Microfon
+        CheiaSol||
+            nota_intreaga varClasa<->10,varClasa2
+        ||
+    Instrumente
+        CheiaSol||
+            nota_intreaga Instrumente FctClasa{nota_intreaga lungime}
+            CheiaSol||
+                Reverb lungime
+            ||
+        ||
+||
+
+Bass Thor
+CheiaSol||
+    Microfon
+        CheiaSol||
+            nota_Re Loki<->10
+            nota_Re Mohnir
+        ||
+    Instrumente
+        CheiaSol||
+            nota_intreaga Instrumente FctClasa{nota_intreaga lungime,gama adevarat}
+            CheiaSol||
+                partitura purple<->"LOL_merge"
+                Reverb lungime
+            ||
+        ||
+||
+
+Concert 
+CheiaSol||
+
+    nota_intreaga var_main<->10,var_main2,var_main3[100]
+
+    @RCF{'a','b','c',100}
+
+    nota_intreaga var_handi<->10
+
+    Eval{(2*var_main)}
+
+    gama test<->((DO SI DO) SI (DO SI (FA SOL DO)))
+    Eval{((DO SI FA) SOL (FA SOL DO))}
+
+    Eval{((2.8/1.2)*3.4)}
+
+    Eval{("ceva_"+"_salut")}
+
+    Eval{((5<<4) SOL (5=|=4))}
+
+    Eval{("ceva"+"lol")}
+
+    nota_muzicala x<->'c'
+
+    @Thor.X
+
+    @Thor.FctClasa_bool_int
+
+    proba{(5<<4)}
+    CheiaSol||
+        nota_intreaga var_if<->42
+    ||
+
+    proba{(5<<4)}
+    CheiaSol||
+        nota_intreaga var_if<->42
+    ||
+
+    repetitie{(5<<4)}
+    CheiaSol||
+        nota_intreaga var_while
+    ||
+
+
+
+||
+
+The music has ended!
